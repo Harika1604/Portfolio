@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+   
+  </head>
+  <body>
+    <header>
+      <h1>Harika Yakkala </h1>
+      <p>Web Development Learner</p>
+    </header>
+    
+    <nav>
+      <ul>
+        <li><a href="#education">Education</a></li>
+         <li><a href="#projects">Projects</a></li>
+         <li><a href="#experience">Experience</a></li>
+         <li><a href="#contact">Contact</a></li>
+         <li><a href="#" onclick="">Admin Login</a></li>
+      </ul>
+    </nav>
+    <button id="toggle-theme">Switch Theme</button>
+    <main>
+      <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="edu-item">
+          <h3>Master of sciences</h3>
+          <p>GITAM Hyderabad,2025-2027</p>
+        </div>
+         <div class="edu-item">
+          <h3>Batchelor of sciences</h3>
+          <p>VFSTR Vadlamudi,2022-2025</p>
+        </div>
+         <div class="edu-item">
+          <h3>High school,MEC</h3>
+          <p>Gurukul Academy,2020-2022</p>
+        </div>
+      </section>
+    <!--Edu sec ends here-->
+       <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project-item">
+          <h3>E-Commerce Apparel Website</h3>
+          <p>Developed an E-commerce website with Bootstrap</p>
+        </div>
+         <div class="edu-item">
+          <h3>Personal portfolio</h3>
+          <p>Developed my personal portfolio website using HTML,CSS and JS</p>
+        </div>
+         <div class="edu-item">
+          <h3>Coin Collection Game</h3>
+          <p>Developed a game, free runner,where the player has to collect oins in limited time</p>
+        </div>
+      </section>
+      <!-- project sec ends here-->
+      
+       <section id="experience" class="section">
+        <h2>Work Experience</h2>
+        <div class="edu-item">
+          <h3>Software Engineer at google</h3>
+          <p>2020-Present</p>
+        </div>
+         <div class="edu-item">
+          <h3>Technical Trainer at learning Zone</h3>
+          <p>Trained students on various Tech topics</p>
+        </div>
+         <div class="edu-item">
+          <h3>Head of curriculum at Learning Zone</h3>
+          <p>Developed all the lesson plans thaught in classes for Learning Zone</p>
+           <p>2022-Present</p>
+        </div>
+      </section>
+      <!-- Exp sec ends here-->
+      <section id="contact" class="section">
+        <h2>Contact me</h2>
+        <form id="contact-form">
+          <input type="text" id="name" placeholder="Your name" required>
+          <input type="email" id="email" placeholder="Your email" required>
+          <textarea id="message" placeholder="Your message" required></textarea>
+ <div class="contactbtn">
+            <button id="submit">Send</button>
+          </div>
+            </form>
+        </section>
+          <!--contact sec ends here-->
+       <section id="admin-login" class="section">
+         <h2>Admin Login</h2>
+         <form id="login-form">
+           <input type="text" id="username" placeholder="username" required>
+           <input type="password" id="password" placeholder="password" required>
+           <button type="sumit">Login</button>
+           </section>
+         <!-- admin sec ends here-->
+         <section id="admin-section"class="section">
+           <h2>User Responses</h2>
+           <div id="User-responses"></div>
+    </main>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
+   
